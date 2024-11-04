@@ -87,6 +87,8 @@ header{
     font-weight: 600;
     border-radius: 57px;
     margin-left: 10px;
+    padding: 0;
+    border: none;
 }
 
 /* section1 */
@@ -113,14 +115,15 @@ header{
     font-size: 56px;
     font-weight: 600px;
     color: var(--font-color);
-    margin: 2px;
+    margin: 2px 0;
+    padding: 0;
 }
 
 .section1_wrapper_left_title2{
     font-size: 43px;
     font-weight: 600px;
     color: var(--font-color);
-    margin: 2px;
+    margin: 2px 0;
 }
 
 .section1_wrapper_left_content{
@@ -180,7 +183,7 @@ header{
 .section2_present_title-1{
     font-size: 16px;
     font-weight: 400;
-    margin: 2px;
+    margin: 2px 0;
 }
 
 .section2_present_title-2{
@@ -360,4 +363,92 @@ header{
     background-color: var(--main-color);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* section4 */
+
+.section4{
+    width: calc(100% - 260px);
+    margin: 60px auto;
+}
+
+.section4_present{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4_present_title-1{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--font-color);
+    margin: 0;
+}
+
+.section4_present_title-2{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--font-color);
+}
+
+.section4_present_more{
+    width: 154px;
+    height: 44px;
+    border-radius: 57px;
+    border: var(--font-color) solid 1.5px;
+    color: var(--font-color);
+}
+
+.section4_present_more-logo{
+    width: 5px;
+    height: 8px;
+    margin-left: 3px;
+}
+
+.section4_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section4_wrapper_card-img{
+    width: 364px;
+    padding: 8px;
+}
+
+.section4_wrapper_card{
+    width: 380px;
+    box-shadow: 0px 4px 28px -2px #00000014;
+    border-radius: 12px;
+    margin-top: 28px;
+}
+
+.section4_wrapper_card-content{
+    width: 364px;
+    height: 144px fill;
+    padding: 8px;
+}
+
+.section4_wrapper_card-content_tag{
+    background-color: #00A7E7;
+    width: 111px;
+    border-radius: 28px;
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 4px 0;
+    margin: 8px;
+}
+
+.section4_wrapper_card-content-title{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section4_wrapper_card-content-content{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 8px 0;
 }
