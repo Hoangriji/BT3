@@ -9,7 +9,7 @@
 
 body{
     margin: 0;
-    width: 100vw;
+    width: 98.9vw;
     font-family: Be Vietnam Pro;
 }
 
@@ -156,6 +156,200 @@ header{
 }
 
 .section1_wrapper_left_btn_join{
+    width: 163px;
+    height: 48px;
+    border: none;
+    border-radius: 57px;
+    color: white;
+    background-color: var(--main-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* section2 */
+.section2{
+    width: calc(100% - 260px);
+    margin: 60px auto;
+}
+
+.section2_present{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2_present_title-1{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 2px;
+}
+
+.section2_present_title-2{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--font-color);
+    margin: 0;
+}
+
+.section2_present_more{
+    width: 154px;
+    height: 44px;
+    border-radius: 57px;
+    border: var(--font-color) solid 1.5px;
+    color: var(--font-color);
+}
+
+.section2_present_more-logo{
+    width: 5px;
+    height: 8px;
+    margin-left: 3px;
+}
+
+.section2_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section2_wrapper_card{
+    background-color: #FDFDFD;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 0;
+    box-shadow: 0px 4px 28px -2px #00000014;
+    margin-top: 28px;
+}
+
+.section2_wrapper_card-img{
+    min-width: 264px;
+    height: 264px;
+    margin: 0 auto;
+}
+
+.section2_wrapper_card-content{
+    min-width: 264px;
+    height: 86px;
+    margin-top: 8px;
+}
+
+.section2_wrapper_card-content_title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.section2_wrapper_card-content_content{
+    display: flex;
+    align-items: center;
+    color: #667479;
+}
+
+.section2_wrapper_card-content_gender{
+    display: flex;
+}
+
+.section2_wrapper_card-content_gender-inner{
+    margin: 0;
+}
+
+.section2_wrapper_card-content_year{
+    display: flex;
+}
+
+.section2_wrapper_card-content_year-inner{
+    margin: 0;
+}
+
+.contentpet{
+    margin-left: 5px;
+}
+
+.section2_wrapper_card-content_content2{
+    width: 5px;
+    height: 5px;
+    margin: 13px;
+}
+
+.section2_wrapper_card-content_price{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+/* section3 */
+.section3{
+    width: calc(100% - 260px);
+    height: 378px;
+    margin: 60px auto;
+    background-image: url(../img/Banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section3_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3_wrapper_left-img{
+    width: auto;
+    height: 378px;
+    margin-left: 20px;
+}
+
+.section3_wrapper_right{
+    margin-right: 85px;
+    text-align: end;
+    margin-top: 56px;
+    color: var(--font-color);
+}
+
+.section3_wrapper_right_title1{
+    font-size: 52px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.section3_wrapper_right_title2{
+    font-size: 37px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.section3_wrapper_right_content{
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.section3_wrapper_right_btn{
+    display: flex;
+    justify-content: end;
+}
+
+.section3_wrapper_right_present{
+    display: flex;
+    width: 164px;
+    height: 48px;
+    border: var(--font-color) solid 1.5px;
+    border-radius: 57px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--font-color);
+}
+
+.section3_wrapper_right_present-logo{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+
+.section3_wrapper_right_btn_join{
     width: 163px;
     height: 48px;
     border: none;
