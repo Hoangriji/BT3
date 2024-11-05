@@ -13,6 +13,7 @@ body{
     font-family: Be Vietnam Pro;
 }
 
+/* header */
 header{
     position: absolute; 
     width: 100%;
@@ -26,7 +27,6 @@ header{
 }
 
 .selection1_wrapper{
-    width: 594px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ header{
 .inner_logo{
     width: 115px;
     height: 40px;
-    margin: 30px 0;
+    margin: 30px 37px 30px 0;
 }
 
 
@@ -451,4 +451,133 @@ header{
     font-size: 14px;
     font-weight: 400;
     margin: 8px 0;
+}
+
+
+/* footer */
+footer{
+    height: 440px;
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    border-radius: top-radius;
+    border-radius: 40px 40px 0 0;
+}
+
+.footer_content{
+    width: calc(100% - 130px * 2);
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.footer_content_register{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #003459;
+    color: white;
+    border-radius: 16px;
+}
+
+.footer_content_register-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-left: 32px;
+}
+
+.footer_content_register-inner{
+    margin: 32px 32px 32px auto;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.footer_content_register-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer_content_register-input:focus{
+    outline: none;
+}
+
+.footer_content_register-input{
+    width: calc(508px - 20px);
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #99A2A5;
+    padding: 0;
+    margin: 12px;
+    padding-left: 20px;
+}
+
+.footer_content_register-btn{
+    width: 163px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    border: none;
+    padding: 0;
+    margin: 12px;
+    margin-left: 0;
+}
+
+.footer_content_menubar{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.footer_content_menubar_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.footer_content_menubar-inner{
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background: transparent;
+}
+
+.footer_content_menubar_wrapper_linkimg{
+    background: transparent;
+    border: none;
+}
+
+.footer_content_menubar_wrapper_linkimg-img{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_brand{
+    display: flex;
+    width: calc(100% - 260px);
+    margin: 0 auto;
+    justify-content: space-between;
+    color: #667479;
+    align-items: center;
+}
+
+.footer_brand-1{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer_brand_logo{
+    width: 115px;
+    height: 40px;
+}
+
+.footer_brand-2{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
 }
