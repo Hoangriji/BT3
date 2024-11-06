@@ -527,6 +527,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin: 40px 0;
+    margin-bottom: 20px;
 }
 
 .footer_content_menubar_wrapper{
@@ -580,4 +581,12 @@ footer{
     justify-content: space-between;
     font-size: 14px;
     font-weight: 500;
+}
+
+.footer_line{
+    width: calc(100% - 260px);
+    height: 1px;
+    background-color: #667479;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
